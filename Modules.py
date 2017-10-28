@@ -37,6 +37,20 @@ else:
 #return#
 #I am being imported from another module
 
+import mymodule #import a module
+
+mymodule.say_hi() #execute the function from the module
+print 'Version', mymodule.__version__ #print the value from the module
+
+
+from mymodule import say_hi, __version__ # same but different version as above
+
+say_hi()
+print 'Version', __version__
+
+
+
+from mymodule import * # import all public names, will not import __version__.  Try to avoid import * because explicit is better than implicit. Run import this in python
 
 
 
