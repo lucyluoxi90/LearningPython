@@ -1,0 +1,97 @@
+5.1.1
+Stacks: last in first out for Lists
+
+5.1.2
+Queues: first-in first-out not efficient for Lists
+-use collections.deque:
+	from collections import deque
+	queue= deque (["amy", "irene", "jenney"])
+
+5.1.3
+filter(function sequence)
+-create a new list by filtering out items based on the function defined
+
+map(function, sequence)
+-create a new list based on the function defined could have more than one sequence (ex:addition of two lists)
+
+reduce(function, sequence)
+-returns a single value like the sum of a list
+-one time on the list: value will be returned
+-empty sequence: exception is raised
+-the third argument could indicate a starting value
+-similar to sum() but the function already exist
+
+
+5.2
+del: deletes any part of a sequence or entirely, even the whole variable
+
+
+5.3 Tuples and Sequences
+Tuples is a sequence data type
+-it's similar to a list but it contains why type of data separated by commas, it could contain multiple lists
+-immutable, but the objects it contains could be mutable 
+-parentheses, comma after an element, could be written reversely (tuple unpacking)
+
+
+5.4 Sets
+-unordered, no duplicate elements
+-() {}
+
+5.5 Dictionaries
+-key-value pairs
+-indexed by keys and are immutable type like strings and numbers but NOT list
+-could be tuples if tuples do not contain mutable object
+-{}
+-storing a value with soem key and extracting the value given the key, delete a key with del
+-keys are predefined
+-key() returns all the keys in the dictionary, could be sorted by sorted()
+-in to see if a key is in the dictionary
+-dict() builds a dictionary
+
+5.6 Looping Techniques
+-enumerate(): prints out position and the word in the sequence
+-zip(): loop contains two sequences operating at the sametime  ????
+-reversed()
+-sorted(): creates a new list
+-iteritems(): key and value are retrieved in dictionary inside using a loop
+- create an NEW LIST while looping
+
+5.7
+-conditions could be in,not in, is, is not. 
+-use boolean. Not has highest priority and or has lowest
+
+
+5.8
+-sequence comparing
+-compares every two using lexicographic ordering
+-sub-sequence is possible
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
