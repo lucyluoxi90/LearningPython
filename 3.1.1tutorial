@@ -1,0 +1,34 @@
+3.1.1 Numbers
+int: integer
+float: fractional part
+/: returns either int or float 
+//: returns integer
+%: returns remainder
+**: ^ power
+=: to assign a value
+_:last printed expression is assigned to this
+round(_,2):round the last expression to thousandth place
+
+3.1.2
+
+3.1.3 Unicode Strings
+Unicode is the new data type for storing text data, it can store and manipulate unicode data and works well with existing string objects
+
+In ASCII: 
+-every character in a string is one byte
+-there are 2^8 = 256 different bytes representing different characters
+
+Unicode:
+-aside from english characters representing one byte, a chinese character could represent more than multiple bytes
+-a string contain different languages returns groups of bytes and they are uniquely grouped so there is only one way to read these sequence of bytes
+-In Python 2, str is not a string! It returns sequence of bytes
+-Decode method is used to properly separate bytes. It CONVERTS sequences of bytes to unicode string in UTF-8 format. The unicode string starts with u' ex: u'A, u'/u136B
+-STR: bytes, make sure to decode right away
+
+3.1.4 Lists
+A list can be written as a list of comma-separated items between square brackets. Usually items are of same type but they could be different.
+
+
+3.2
+while loop
+-print: use COMMA to print strings with lists and " " to add space

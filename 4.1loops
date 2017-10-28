@@ -1,0 +1,40 @@
+4.1 if statments
+elif: else if
+
+4.2for statments
+-iterates over the items of any sequqnce in the order that they appear
+-a variable is assigned to each of the elements in the list or the variable in the initially defined variable
+
+4.3 range()
+-starts with 0 n increase  by 1 unless both are specified
+
+
+4.4
+Break: use it when else is applied on the outside of the loop
+continue: instead of else, use contiune to skip right to the next loop when conditions aren't met
+
+4.5 
+pass: does nothing
+
+4.6
+def: definition 
+body of the function must be indented on the next line.
+good habit to include docstring or string literal in the code.
+
+4.7.1 Default Argument Values
+
+4.7.2
+kwarg: keyword arguments
+keyword arguments must follow positional arguments. All the keywords are defined in the function and in this case the order doesn't matter.
+
+4.7.3
+*arg: -contains variable number of arguments for a function
+	  -iterable: run for a loop and process every argument inside the args list
+	  -it's used when you dont know how many arguments are passed in the function by user
+
+4.7.4 
+SECOND part confused!!
+
+
+
+
