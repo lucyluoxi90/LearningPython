@@ -49,6 +49,55 @@ table = {'Sjoerd': 4127, 'Jack': 4098, 'Dcab': 8637678}
 print 'Jack: {Jack:d}; Sjoerd: {Sjoerd:d}; Dcab: {Dcab:d}'.format(**table)
 
 
+7.1.1
+import math
+print 'The value of PI is approximately %5.3f.'% math.pi 
+#The value of PI is approximately 3.142.
+#'The value of PI is approximately {0:.3f}'.format(math.pi)
+
+7.2
+#open() #two arguments: filename,mode
+
+f=open('worklife', 'w')
+print f
+#<open file 'worklife, mode 'w' at ...>
+#r: reading  a:appending   r+: writing and reading  no argument is assumed r
+
+7.2.1
+
+f.read() #empty argument: entire file been read, otherwise parameter is the size
+#returns empty string "" if reading is finished
+f.readline() #reads a single line at a time
+f.seek() #reference point 
+
+f.close()
+f.read()
+
+7.2.2
+#json can take Python data hierarchies and convert them into string representations aka serializing.
+#deserializing
+
+#view json string representation of an object x,
+import json
+json.dumps([1, 'simple', 'list']) #'[1, "simple", "list"]'
+
+json.dump(x,f)
+
+x= json.load(f)
+
+#pickle is protocol which allows the serialization of arbitrarily complex Python objects. It could be insecure.
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
