@@ -149,9 +149,26 @@ a #[]
 del a # deletes entire variable
 
 
+5.3
+
+t = 12345, 54321, 'hello!'
+t[0] #12345
+t #(12345, 54321, 'hello!')
+# Tuples may be nested:
+u = t, (1, 2, 3, 4, 5)
+u #((12345, 54321, 'hello!'), (1, 2, 3, 4, 5))
+# Tuples are immutable:
+
+# but they can contain mutable objects:
+v = ([1, 2, 3], [3, 2, 1])
+v #([1, 2, 3], [3, 2, 1])
 
 
-
+empty = ()
+singleton = 'hello',    # <-- note trailing comma
+len(empty)#0
+len(singleton) #1
+singleton #('hello',)
 
 
 
